@@ -1,4 +1,9 @@
-# Operating Systems
+# Lesson One
+
+- Basics about operating systems
+- Writing your first python program
+
+## Operating Systems
 
 The operating system, or OS, does basic things on your computer. Other programs work on top of the OS. With the OS, you can create folders (directories) and files of various types. 
 
@@ -74,8 +79,58 @@ Then press the `Esc` key and type:
 
 This will save your file and exit. 
 
+### Listing contents of a folder
 
+To see what is inside a folder, type: `ls`
 
+If you do this inside your `python` folder, what do you see? 
+
+If you navigate to your home folder and type `ls`, what do you see? 
+
+## The Python Command Line
+
+Navigate to your python folder and type: `python`
+
+This will put you in python command-line mode. You will see a prompt: `>>>`
+At this prompt, you can type commands to your python interpreter and it will execute them. 
+
+Python can do arithmetic. Try: 
+
+`7 + 2`
+
+`8*3`
+
+`(1 + 4 + 5) / 2`
+
+Python can print. Try: 
+
+`print 15*3`
+
+Also try: 
+
+`print "15*3"`
+
+What is the difference between the two? 
+
+### Your first python program: 
+
+Exit the python interpreter by pressing Ctrl-d. 
+
+Create a file with vim. Type: `vim hello.py`
+
+Get into Insert mode. 
+
+Type: 
+
+`print "Hello World!" `
+
+Save your file and exit vim by typing: `Esc`
+
+Followed by: `:wq`
+
+Type `ls` in your directory and see what you have. 
+
+Type `python hello.py` and see what happens. 
 
 
 
