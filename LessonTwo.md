@@ -37,3 +37,34 @@ Can you list any other examples of syntax in Python that you have already encoun
 
 ## The `if` statement
 
+Suppose you want to add 10 to x if x < 5, otherwise, subtract 7 from x. Here is the syntax: 
+
+```
+if x < 5: 
+    x = x + 10
+else: 
+    x = x - 7
+```
+
+The colon : and the indentation are important. Indent four spaces. 
+Try out the above code as follows: 
+
+```
+x = 2
+if x < 5: 
+    x = x + 10
+else: 
+    x = x - 7
+    
+print x
+```
+
+See if it does what you expect. 
+
+There is special syntax for the "=" case. Suppose you want to multiply x by 10 if x = 2. 
+
+```
+if x == 2: 
+    x = x*10
+```
+Try some examples and see if they do what you expect. 
