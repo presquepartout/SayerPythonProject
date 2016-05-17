@@ -66,5 +66,68 @@ There is special syntax for the "=" case. Suppose you want to multiply x by 10 i
 ```
 if x == 2: 
     x = x*10
+print x
 ```
 Try some examples and see if they do what you expect. 
+
+## The `for` loop
+
+The `for` loop is a program that runs through an iterable object, and does something for each value in the iterable object. 
+
+We will defer the definition of "iterable object" for now and look at some examples: 
+
+#### List example of `for` loop: two flavors
+
+Write and execute this code at the python prompt: 
+
+```
+x = [2, 3, 4]
+for e in x:
+   print x*5
+```
+
+See what happens. Another example: 
+
+```
+stringy = "aaapple"
+for char in stringy: 
+    print char
+```
+
+A digression about lists: lists and other iterable objects have indexes by which you can reference items within the list. 
+
+What does this mean? Using the example list x above, try the following code: 
+
+```
+x[0]
+```
+
+Alternatively 
+
+```
+print x[0]
+```
+
+Try also x[1], x[2], and x[3]. See what happens. 
+
+Try: 
+
+```
+for i in [0, 1, 2]:
+    print x[i]*5
+```
+
+The above should be exactly the same as some code you tried earlier. 
+
+Now that you've seen some examples, here is a short recap: 
+- the syntax of a `for` loop is: 
+
+```
+for item in <iterable>:
+    code indented 4 spaces
+    more code if needed
+```
+
+The nice thing about the `for` loop is that it comes to a stop by itself, when done with all of the items in the iterable. 
+
+
