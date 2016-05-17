@@ -119,6 +119,8 @@ for i in [0, 1, 2]:
 
 The above should be exactly the same as some code you tried earlier. 
 
+The value within the square brackets is called an **index**. 
+
 Now that you've seen some examples, here is a short recap: 
 - the syntax of a `for` loop is: 
 
