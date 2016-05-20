@@ -132,4 +132,11 @@ for item in <iterable>:
 
 The nice thing about the `for` loop is that it comes to a stop by itself, when done with all of the items in the iterable. 
 
+### Exercises - do these in the python command line
+
+1. Create a variable named zz and set it to an integer value. Write some code that will print zz if zz is negative. Test it out. 
+2. Write some code that will print zz if zz is negative, and print "Hello World" if zz is positive. 
+3. Write code that will print the first 8 multiples of 7. 
+4. Write code that will print zz if it is a multiple of 2. Otherwise it will print "Error. This number is odd." Hint: remember the difference between zz/2 and zz/2.0
+5. Write code that counts the number of letters in a word. 
 
