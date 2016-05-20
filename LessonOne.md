@@ -16,7 +16,7 @@ The Mac OS is similar to an OS called Unix. It is a Unix-flavored OS. There is a
 
 To get started: 
 
-1. Open a terminal window. In the Search form type: `terminal`. 
+1. Open a terminal window. In the Spotlight Search form type: `terminal`. 
 2. You'll get a new window with a command line. Type: `pwd` 
 
 The `pwd` command tells you where you are. It stands for `print working directory`. If you are using your own machine and you have your own user account named MeMyself, the output of your command should be something like this: 
