@@ -30,6 +30,18 @@ If you are on the Python command line and type:
 
 and press Enter, what happens? 
 
+Try: 
+
+`seven + 2`
+
+What happens? 
+
+Try: 
+
+`"seven" + 2`
+
+What happens?
+
 An example of syntax you've already encountered is the list syntax. A list in Python is enclosed in square brackets [ and ]. 
 The members of a list are separated by commas. The list [1, 2, 3] has three items; the list ["123"] has one item. 
 
