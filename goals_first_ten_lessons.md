@@ -30,12 +30,15 @@ Be able to:
 ### Lesson 3
 
 - iPython notebooks
-
-### Lesson 4
-
 - More about types: lists, int, float, str, boolean
 - More about conditionals
 - More about control structures: for and while
+
+### Lesson 4
+
+- command line I/O
+- file I/O
+- interactive tic-tac-toe game
 
 ### Lesson 5
 
@@ -61,3 +64,5 @@ Be able to:
 - space complexity
 
 ### Lesson 10
+
+- Big Data project
