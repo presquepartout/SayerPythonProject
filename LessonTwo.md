@@ -59,7 +59,7 @@ else:
 ```
 
 The colon : and the indentation are important. Indent four spaces. 
-Try out the above code as follows: 
+At the python prompt, type out the code as follows: 
 
 ```
 x = 2
