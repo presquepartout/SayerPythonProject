@@ -10,7 +10,7 @@ Be able to:
 - use a few basic algorithms
 - write modular code: functions
 - understand and use basic object oriented programming: classes
-- do easy challenges in leetcode.com, hackerrank.com, or other coding web site
+- do easy challenges in leetcode.com, hackerrank.com, or other coding web sites
 - follow a tutorial for a framework such as Flask
 
 # Outline of First Ten Lessons
@@ -48,10 +48,16 @@ Be able to:
 
 ### Lesson 7
 
-- classes
+- introduction to object oriented programming: classes
 
 ### Lesson 8
 
+- classic computer science: implement a stack
+
 ### Lesson 9
+
+- classic computer science: recursion
+- time complexity
+- space complexity
 
 ### Lesson 10
