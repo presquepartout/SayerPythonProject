@@ -95,7 +95,7 @@ Write and execute this code at the python prompt:
 ```
 x = [2, 3, 4]
 for e in x:
-   print x*5
+   print e*5
 ```
 
 See what happens. Another example: 
