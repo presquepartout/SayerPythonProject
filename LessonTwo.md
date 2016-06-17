@@ -7,7 +7,7 @@
 
 - little bit of `unix`
 - little bit of the Python command line
-- different types of data: `int`, `float`, `str`, `list` - are there more types? Yes
+- different types of data: `int`, `float`, `str` - are there more types? Yes
 - variables - easy to assign
 - arithmetic - different for `int` and `float`
 - the print statement
