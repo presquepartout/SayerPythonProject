@@ -116,6 +116,28 @@ Also try:
 
 What is the difference between the two `print` statements? 
 
+Notice some things about the way Python does arithmetic:
+
+Try: 
+`8 / 2`
+
+Compare it with: 
+`9 / 2`
+
+Do you get the answers you expect? 
+
+Try: 
+
+`9.0 / 2.0`
+
+What happened this time? (You should get a different answer from `9 / 2`). 
+
+That is because to Python, 9 and 9.0 are two different `types` of numbers. 
+
+`9` is an `int`. (Short for integer.)
+`9.0` is a `float`. (Short for floating point number.). This name has a history in computer science that you can look up. 
+`"nine"` is a `str`. (Short for string, or "string of characters".) 
+
 ### Your first python program: 
 
 Exit the python interpreter by pressing Ctrl-d. (That means simultaneously press the Control key and the `d` key.)
