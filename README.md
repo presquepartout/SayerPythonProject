@@ -9,7 +9,7 @@ A series of tutorials for learning to program in Python on Mac OSX.
 
 **[Lesson Three](https://github.com/presquepartout/SayerPythonProject/blob/master/LessonThree.md)**
 
-**[Lesson Three Companion Notebook](https://github.com/presquepartout/SayerPythonProject/blob/master/LessonThree_Companion_Notebook.ipynb)**
+**[Lesson Three Companion Notebook](https://github.com/presquepartout/SayerPythonProject/blob/master/Lesson3_Companion_Notebook.ipynb)**
 
 
 
