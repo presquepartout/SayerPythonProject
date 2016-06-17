@@ -94,6 +94,8 @@ Navigate to your python folder and type: `python`
 This will put you in python command-line mode. You will see a prompt: `>>>`
 At this prompt, you can type commands to your python interpreter and it will execute them. 
 
+### Simple math
+
 Python can do arithmetic. Try: 
 
 `7 + 2`
@@ -137,6 +139,27 @@ That is because to Python, 9 and 9.0 are two different `types` of numbers.
 `9` is an `int`. (Short for integer.)
 `9.0` is a `float`. (Short for floating point number.). This name has a history in computer science that you can look up. 
 `"nine"` is a `str`. (Short for string, or "string of characters".) 
+
+### Variables
+
+It is very easy to set a variable in Python. Type: 
+
+`x = 4`
+
+Now you can try: 
+
+`x + 12` 
+
+What is the result? 
+
+What if x is 4.0 instead? Try it. Try adding x to 12 and see what you get. 
+
+Names of variables can be almost anything. They must begin with a letter. 
+
+OK: `alphabet = 26`
+
+NOT OK: `26a = 1.3`
+
 
 ### Your first python program: 
 
