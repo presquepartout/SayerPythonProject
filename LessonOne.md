@@ -98,7 +98,11 @@ Python can do arithmetic. Try:
 
 `7 + 2`
 
+Python can add two integers for you. Python can also multiply. Type the following and press return. 
+
 `8*3`
+
+Python can evaluate algebraic expressions:
 
 `(1 + 4 + 5) / 2`
 
@@ -110,11 +114,11 @@ Also try:
 
 `print "15*3"`
 
-What is the difference between the two? 
+What is the difference between the two `print` statements? 
 
 ### Your first python program: 
 
-Exit the python interpreter by pressing Ctrl-d. 
+Exit the python interpreter by pressing Ctrl-d. (That means simultaneously press the Control key and the `d` key.)
 
 Create a file with vim. Type: `vim hello.py`
 
