@@ -118,7 +118,7 @@ Exit the python interpreter by pressing Ctrl-d.
 
 Create a file with vim. Type: `vim hello.py`
 
-Get into Insert mode. 
+Get into Insert mode (by typing `i`). 
 
 Type: 
 
