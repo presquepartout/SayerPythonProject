@@ -47,6 +47,35 @@ The members of a list are separated by commas. The list [1, 2, 3] has three item
 
 Can you list any other examples of syntax in Python that you have already encountered? 
 
+## The `type` function
+
+The reserved word `type` is a function that tells you what type of data something is. 
+
+Try entering these statements at the python command line:  
+
+`type(4)`
+
+(Above means: what is the type of 4?)
+
+`type(4.1)`
+
+`type("4")`
+
+`type(four)`
+
+`type("four")`
+
+In the case of `type(four)` Python is confused. It tried to look up four but could not find it. Python would know that "four" is a string, but it does not know what four is unless you define it. 
+
+Try this sequence of commands: 
+
+`four = 4.0`
+
+`type(four)`
+
+Now, Python knows what four is, because you have defined it. 
+
+
 ## The `if` statement
 
 Suppose you want to add 10 to x if x < 5, otherwise, subtract 7 from x. Here is the syntax: 
