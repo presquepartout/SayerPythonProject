@@ -16,4 +16,10 @@ It's not important for a baby to know the parts of speech or that sentences need
 
 It's very important for a baby to make eye contact and say hello, learn names of family members, ask for what she needs. 
 
-So this is a course in learning to program like a baby learns to talk. Imagine, in a few years you'll be able to really say something. 
+So this is a course in learning to program like a baby learns to talk. To keep things simple, we restrict to one tool, the Mac, and a couple of environments: the command line and jupyter notebooks. 
+
+We emphasize exploration over explanation. You are given things to try, and some of those things won't work. 
+We will bump up against the rules. 
+
+The hope is that with this series of experiences, you can move on to using computer programming as you wish.
+It could be for fun. For making a few specific projects. As the basis of an education. As the basis of a career. 
