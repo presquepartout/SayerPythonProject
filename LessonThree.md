@@ -101,7 +101,7 @@ An easy way to do this is to `clone` this repository. At the command line, enter
 You can copy and paste the above URL so you don't have to type it. 
 If you see an error message after you enter the above command, you might have to install git. 
 
-In that case, I suggest a different way to get the notebook: download the zip archive from SayerPythonProject. Click the green "Clone or Download Zip" button. 
+In that case, I suggest a different way to get the notebook: download the zip archive from [SayerPythonProject](https://github.com/presquepartout/SayerPythonProject). Click the green "Clone or Download Zip" button. 
 
 When that is done, start up your notebook server: 
 
