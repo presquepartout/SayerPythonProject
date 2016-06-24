@@ -8,7 +8,7 @@ Along the way, for machine learning purposes, I've used some Java, C, and Scala.
 
 Really learning this material takes time and effort. What I found missing from many introductory classes and tutorials was practicality.
 
-Many venerated texts and university style classes are taught from a conceptual framework, which is great. 
+Many [venerated texts](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X?ie=UTF8&ref_=asap_bc) and university style classes are taught from a conceptual framework, which is great. 
 But computer programming is completely grounded in application. It is necessary to do, to learn. And if one cannot do, one is stuck. 
 
 The goal of these lessons in Python is to reach basic confidence in using a computer language, kind of the way a baby learns a language: 
@@ -23,3 +23,4 @@ We will bump up against the rules.
 
 The hope is that with this series of experiences, you can move on to using computer programming as you wish.
 It could be for fun. For making a few specific projects. As the basis of an education. As the basis of a career. 
+A hobby. An adjunct.
