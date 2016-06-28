@@ -44,14 +44,17 @@ Booleans follow rules of logic and truth tables. Try out the following code:
 
 `if happy:`
 
-`     print "Smile"`
+
+
+`    print "Smile"`
      
-Remember to indent four spaces after the print statement. What is the result? 
+What is the result? 
 
 Try:
 
-`if sad:
-     print "boo hoo"`
+`if sad:`
+
+`     print "boo hoo"`
      
 Remember to indent. What is the result?
 
