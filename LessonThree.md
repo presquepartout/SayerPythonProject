@@ -42,17 +42,18 @@ Booleans follow rules of logic and truth tables. Try out the following code:
 
 `happy = (dessert > 2) and (allergy < 2)`
 
-`if happy:
-      print "Smile"`
+`if happy:`
+
+`     print "Smile"`
      
-What is the result? 
+Remember to indent four spaces after the print statement. What is the result? 
 
 Try:
 
 `if sad:
      print "boo hoo"`
      
-What is the result?
+Remember to indent. What is the result?
 
 ## Jupyter notebooks
 
