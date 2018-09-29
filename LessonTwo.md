@@ -158,8 +158,26 @@ stringy = "aaapple"
 for char in stringy: 
     print char
 ```
+#### Iterables
 
-A digression about lists: lists and other iterable objects have indexes by which you can reference items within the list. 
+Both strings and lists are examples of iterable objects, or iterables. An iterable is a set of items "whose items you can name in order, from first to last". 
+
+The "place" of an item is called its **index**. 
+
+In the list `[4, 6, 8]`, the first item is 4. Its index is 0. If: 
+
+` x = [4, 6, 8]`
+
+Then: `x[0] = 4` - you can test this in Python by entering: 
+
+The index of 6 is 1, and the index of 8 is 2. 
+
+If: 
+
+` s = "aaapple" `
+
+What is `s[0]` ? 
+What is `s[5]`? 
 
 What does this mean? Using the example list x above, try the following code: 
 
@@ -184,8 +202,6 @@ for i in [0, 1, 2]:
 
 The above should be exactly the same as some code you tried earlier. 
 
-The value within the square brackets is called an **index**. 
-
 Now that you've seen some examples, here is a short recap: 
 - the syntax of a `for` loop is: 
 
@@ -202,6 +218,6 @@ The nice thing about the `for` loop is that it comes to a stop by itself, when d
 1. Create a variable named zz and set it to an integer value. Write some code that will print zz if zz is negative. Test it out. 
 2. Write some code that will print zz if zz is negative, and print "Hello World" if zz is positive. 
 3. Write code that will print the first 8 multiples of 7. 
-4. Write code that will print zz if it is a multiple of 2. Otherwise it will print "Error. This number is odd." Hint: remember the difference between zz/2 and zz/2.0
+4. Write code that will print zz if zz is a multiple of 2. Otherwise it will print "Error. This number is odd." Hint: remember the difference between zz/2 and zz/2.0
 5. Write code that counts the number of letters in a word. 
 
