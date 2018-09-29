@@ -28,21 +28,23 @@ This particular directory has a special name: your home directory.
 Here are some simple commands to try out: 
 
 ### Folders
-Make a new folder called `python`: 
+Make a new folder called `mycode`: 
 
-`mkdir python`
+`mkdir mycode`
 
 To remove a folder: 
 
-`rmdir python`
+`rmdir mycode`
 
 ### Navigate to and from folders
 
 Create a few folders in your home directory. 
 
-To go inside the folder `python`:
+To go inside the folder `mycode`:
 
-`cd python`
+`cd mycode`
+
+If this command fails, you are probably in a different place from your home directory. Use the command `pwd` to find out where you are. 
 
 To go up a level (back out to your home directory):
 
@@ -56,11 +58,15 @@ To go home from any directory:
 
 You can find out where you are at any point by typing: `pwd`
 
+Putting it all together: You can go to your `mycode` directory this way: 
+
+`cd ~/mycode`
+
 ### Creating text files
 
-Navigate to your python folder: 
+Navigate to your mycode folder: 
 
-`cd python`
+`cd mycode`
 
 We will use a text editor called `vim` to make files. 
 
@@ -82,14 +88,24 @@ This will save your file and exit.
 ### Listing contents of a folder
 
 To see what is inside a folder, type: `ls`
+(letter lowercase L and lowercase s)
 
-If you do this inside your `python` folder, what do you see? 
+If you do this inside your `mycode` folder, what do you see? 
 
 If you navigate to your home folder and type `ls`, what do you see? 
 
+Here is some output from my computer: 
+`atom:mycode memyself$ pwd`
+`/Users/memyself/mycode`
+
+Above is the result of the `pwd` command. 
+Below is the result of the `ls` command: 
+`atom:mycode memyself$ ls`
+`newfile.txt`
+
 ## The Python Command Line
 
-Navigate to your python folder and type: `python`
+Navigate to your `mycode` folder and type: `python`
 
 This will put you in python command-line mode. You will see a prompt: `>>>`
 At this prompt, you can type commands to your python interpreter and it will execute them. 
@@ -98,7 +114,7 @@ At this prompt, you can type commands to your python interpreter and it will exe
 
 Python can do arithmetic. Try: 
 
-`7 + 2`
+`>>> 7 + 2`
 
 Python can add two integers for you. Python can also multiply. Type the following and press return. 
 
