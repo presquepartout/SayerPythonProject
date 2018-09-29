@@ -5,13 +5,13 @@
 
 ## Previous lesson recap
 
-- little bit of `unix`
-- little bit of the Python command line
+- little bit of `unix`: commands `pwd`, `cd`, `ls`, `python`
+- little bit of the Python command line `>>>`
 - different types of data: `int`, `float`, `str` - are there more types? Yes
 - variables - easy to assign
 - arithmetic - different for `int` and `float`
 - the print statement
-- running first program
+- running first program, `hello.py`
 
 ## What is syntax? 
 
@@ -42,8 +42,32 @@ Try:
 
 What happens?
 
-An example of syntax you've already encountered is the list syntax. A list in Python is enclosed in square brackets [ and ]. 
-The members of a list are separated by commas. The list [1, 2, 3] has three items; the list ["123"] has one item. 
+`7 plus 2`, `seven + 2`, `"seven" + 2` are all examples of things that a human can read but Python has trouble reading. 
+Python needs statements to follow rules, and the rules must be followed without exception. We will learn the rules as we go. 
+The rules of correct statements are called syntax. 
+
+We've already encountered data types. Three examples of data types are int, float, and str. (Integer, floating point number, and string). 
+You know you can add an int to an int using the plus sign. 
+Can you add an int to a float? Try it. 
+
+Can you add a string to a string? Here is how to try it: 
+`>>> x = 'dog' `
+
+`>>> y = 'cat' `
+
+`>>> x + y `
+
+After pressing enter, you should see: `dogcat`. 
+
+But if you try: 
+
+`>>> x + 2`
+
+That would fail. You cannot add an int and a str. 
+
+Another important data type in Python is the list. A list is an example of an array. A Python list is enclosed in square brackets [ and ]. 
+The members of a list are separated by commas. The list `[1, 2, 3]` has three items - the three ints 1, 2, and 3. 
+The list `["123"]` has one item - the string `"123"`. 
 
 Can you list any other examples of syntax in Python that you have already encountered? 
 
