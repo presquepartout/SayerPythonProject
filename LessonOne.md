@@ -77,6 +77,7 @@ The above command starts up the vim editor. To insert text into the file, type `
 After typing `i` type: 
 
 `Hello World`
+
 `This is my first text file.`
 
 Then press the `Esc` key and type: 
@@ -95,12 +96,17 @@ If you do this inside your `mycode` folder, what do you see?
 If you navigate to your home folder and type `ls`, what do you see? 
 
 Here is some output from my computer: 
+
 `atom:mycode memyself$ pwd`
+
 `/Users/memyself/mycode`
 
 Above is the result of the `pwd` command. 
+
 Below is the result of the `ls` command: 
+
 `atom:mycode memyself$ ls`
+
 `newfile.txt`
 
 ## The Python Command Line
@@ -153,7 +159,9 @@ What happened this time? (You should get a different answer from `9 / 2`).
 That is because to Python, 9 and 9.0 are two different `types` of numbers. 
 
 `9` is an `int`. (Short for integer.)
+
 `9.0` is a `float`. (Short for floating point number.). This name has a history in computer science that you can look up. 
+
 `"nine"` is a `str`. (Short for string, or "string of characters".) 
 
 ### Variables
@@ -162,11 +170,13 @@ It is very easy to set a variable in Python. Type:
 
 `x = 4`
 
+Now, Python believes that x stands for the number 4. As written, 4 is an int not a float. 
+
 Now you can try: 
 
 `x + 12` 
 
-What is the result? 
+What is the result after you press `enter`? 
 
 What if x is 4.0 instead? Try it. Try adding x to 12 and see what you get. 
 
@@ -176,6 +186,12 @@ OK: `alphabet = 26`
 
 NOT OK: `26a = 1.3`
 
+Try out what is OK and what is NOT OK. 
+You can set a variable to be a string: 
+
+`alphabet_first4 = 'abcd'`
+
+`print alphabet_first4`
 
 ### Your first python program: 
 
