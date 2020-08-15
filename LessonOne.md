@@ -133,10 +133,15 @@ Python can evaluate algebraic expressions:
 Python can print. Try: 
 
 `print 15*3`
+Above is for Python 2. If you're using Python 3: 
+`print(15*3)`
 
 Also try: 
 
 `print "15*3"`
+
+If python 3: 
+`print("15*3")`
 
 What is the difference between the two `print` statements? 
 
@@ -154,9 +159,9 @@ Try:
 
 `9.0 / 2.0`
 
-What happened this time? (You should get a different answer from `9 / 2`). 
+What happened this time? (In Python 2, you should get a different answer from `9 / 2`, in python 3 they are the same). 
 
-That is because to Python, 9 and 9.0 are two different `types` of numbers. 
+In Python, 9 and 9.0 are two different `types` of numbers. 
 
 `9` is an `int`. (Short for integer.)
 
@@ -193,6 +198,9 @@ You can set a variable to be a string:
 
 `print alphabet_first4`
 
+In Python 3: 
+`print(alphabet_first4)`
+
 ### Your first python program: 
 
 Exit the python interpreter by pressing Ctrl-d. (That means simultaneously press the Control key and the `d` key.)
@@ -204,6 +212,9 @@ Get into Insert mode (by typing `i`).
 Type: 
 
 `print "Hello World!" `
+
+if Python 3: 
+`print("Hello World!")`
 
 Save your file and exit vim by typing: `Esc`
 
