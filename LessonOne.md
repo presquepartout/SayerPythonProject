@@ -95,9 +95,9 @@ If you do this inside your `mycode` folder, what do you see?
 
 If you navigate to your home folder and type `ls`, what do you see? 
 
-Here is some output from my computer: 
+Here is some output from my computer, after I type `pwd`: 
 
-`atom:mycode memyself$ pwd`
+`$ pwd`
 
 `/Users/memyself/mycode`
 
@@ -105,7 +105,7 @@ Above is the result of the `pwd` command.
 
 Below is the result of the `ls` command: 
 
-`atom:mycode memyself$ ls`
+`$ ls`
 
 `newfile.txt`
 
